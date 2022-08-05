@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&family=Poppins:wght@400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 400;
+  color: #232631;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif; }
+html {
+  overflow-x: hidden; }
+body {
+  min-width: 1344px;
+  background-color: #FAFAFA; }
+input,
+button {
+  border: none;
+  outline: none;
+  border-radius: 12px; }
+
+.container {
+  margin: 0 auto;
+  max-width: 1284px;  }
+.button {
+  background-color: #FDC886; }
+.text-heading {
+  margin-top: 6px; }
+.fs-18 {
+  font-size: 18px; }
+
+.navbar-area {
+  margin: 60px 0; }
+.nav-bar {
+  gap: 30px; }
+.nav-link {
+  font-weight: 500;
+  color: #232631 !important;}
+
+.logo-area {
+  gap: 8px;
+  font-weight: 800;
+  font-family: 'Nunito', sans-serif; }
+.input-area,
+.most-area__img,
+
+.whyus-area__card-area {
+  gap: 20px; }
+.input-area__input, .button {
+  padding: 16px 28px; }
+.input-area__input {
+  width: 322px;
+  font-weight: 500;
+  color: #858585; }
+.input-area__btn {
+  color: #5A4FCF;
+  background: rgba(90, 79, 207, 0.1); }
+
+.reserve-area__card {
+  left: 0;
+  top: 134px;
+  width: 390px;
+  border-radius: 24px;
+  padding: 24px 120px 24px 24px; }
+.reserve-area__restoname {
+  font-size: 22px; }
+.reserve-area__btn {
+  margin: 34px 0 12px 0; }
+.reserve-area__img {
+  gap: 40px;
+  margin-left: 60px; }
+
+.whyus-area, .resto-area {
+  margin: 120px 0; }
+.whyus-area__card-area {
+  margin-top: 41px; }
+.whyus-area__card {
+  width: 315px;
+  overflow: hidden;
+  border-radius: 24px; }
+.whyus-area__card__main {
+  padding: 35px 24px 54px 24px; }
+.whyus-area__card__img {
+  padding: 11px;
+  border-radius: 50px;
+  background: rgba(253, 200, 134, 0.15); }
+.whyus-area__card-title {
+  margin: 24px 0 12px 0; }
+.whyus-area__btn {
+  padding: 24px 0;
+  border-radius: 12px 12px 24px 24px; }
+.whyus-area__btn:hover {
+  background-color: #FDC886 !important; }
+
+.most-area__card {
+  width: 367px; }
+.most-area__paragraph {
+  margin: 20px 0 56px 0; }
+.img-card {
+  gap: 8px;
+  left: 24px;
+  right: 24px;
+  bottom: 24px;
+  padding: 24px;
+  border-radius: 24px; }
+.right-btn {
+  padding: 6px; }
+
+.resto-area__btn {
+  padding: 20px 24px;
+  background-color: #F2F2F2; }
+.resto-area__card {
+  margin-top: 34px;
+  margin-bottom: 56px; }
